@@ -10,8 +10,9 @@ function Profile() {
                 <div class="home-details">
                     <h1>Udoh George</h1>
                     <h2>Graphics Designer</h2>
-                    <p>I believe design more than Aesthetics - It's a Brand's Heartbeat</p>
-                    <p>I bring visuals to life, ensuring every design is consistent, engaging, and a perfect reflection of the Brand's Voice.</p>
+                    <p>I believe that design more than Aesthetics - It's a Brand's Heartbeat</p>
+                    <p>I bring visuals to life, ensuring every design is consistent, engaging, and a perfect reflection of YOUR Brand's Voice. - YOUR Brand is at the Center not my designing skill.</p>
+                    <P>Your Brand Needs a Voice, Let's Help Make it Shout!</P>
                     <div class="download-social">
                         <a href={Portfolio} class="btn" download={Portfolio}>Download Cv</a>
                         <div class="social-icons">
