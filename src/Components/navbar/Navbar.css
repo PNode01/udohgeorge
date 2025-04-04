@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: linear-gradient(to right, #2f0044 , #000d2d);
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    background: url("/public/background.jpg") no-repeat center / cover;
+    padding: 50px 5%;
+}
+.container{
+    position: relative;
+    height: 100%;
+    background: rgba(255, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
+    transform: scale(0);
+    animation: zoom-in 1s ease forwards;
+}
+
+@keyframes zoom-in {
+    100%{
+        transform: scale(1);
+    }
+}
+nav{
+    width: 100%;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.animated {
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slide-in 1s ease forwards;
+    animation-delay: 1s;
+}
+@keyframes slide-in {
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.menubar{
+    display: none;
+}
+.logo{
+    display: flex;
+}
+.logo a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.logo img{
+    width: 25px;
+    margin-right: 8px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+    background: rgba(255, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+.navbar a:hover,
+.navbar a.active{
+    border-color: #fff;
+}
+
+.active{
+    border-bottom: 2px solid #fff;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 1332px) {
+    .navbar {
+        position: absolute;
+        width: 350px;
+        height: 60vh;
+        justify-content: space-evenly;
+        top: 107px;
+        right: 0;
+        z-index: -1;
+        background-image: linear-gradient(to right, #2f0044 , #000d2d);
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 30px;
+        backdrop-filter: blur(30px);
+        display: none;
+    }
+    .navbar ul{
+        display: block;
+        padding: 30px 10px;
+        
+    }
+    .navbar ul li{
+        padding: 16px 4px;
+    }
+    .menubar{
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .activenav{
+        display: block;
+        transform: translateY(30px);
+        opacity: 0;
+        animation: slide-in .5s ease forwards;
+    }
+}

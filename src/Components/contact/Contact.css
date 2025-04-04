@@ -1,0 +1,56 @@
+footer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    margin: 50px 0;
+    padding-bottom: 50px;
+}
+
+.btn-footer{
+    margin: 0;
+    padding: 25px 30px;
+    width: 100%;
+    background-color: #000d2d;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 6px;
+}
+
+.btn-footer::after, .btn-footer::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(#ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 10px;
+}
+.btn-footer::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+#contact{
+    transform: translateX(0px);
+    animation: floating 1.5s ease-in-out infinite;
+}
+@keyframes floating {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
