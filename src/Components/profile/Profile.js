@@ -1,4 +1,4 @@
-import ProfilePics from "./PERRY-PP-2.png"
+// import ProfilePics from "./PERRY-PP-2.png"
 import "./Profile.css"
 import { FaWhatsapp, FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 import Portfolio from '../gallery/Resume.pdf'
@@ -15,10 +15,10 @@ function Profile() {
                     <div class="download-social">
                         <a href={Portfolio} class="btn" download={Portfolio}>Download Cv</a>
                         <div class="social-icons">
-                            <a href="www.linkedin.com/in/udoh-george" target="_blank"><FaLinkedinIn /></a>
-                            <a href="https://Wa.me/+2349069689034" target="_blank"><FaWhatsapp /></a>
-                            <a href="https://web.facebook.com/profile.php?id=61574191224029" target="_blank"><FaFacebookF /></a>
-                            <a href="https://github.com/PNode01" target="_blank"><FaGithub /></a>
+                            <a href="www.linkedin.com/in/udoh-george" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+                            <a href="https://Wa.me/+2349069689034" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
+                            <a href="https://web.facebook.com/profile.php?id=61574191224029" target="_blank" rel="noreferrer"><FaFacebookF /></a>
+                            <a href="https://github.com/PNode01" target="_blank" rel="noreferrer"><FaGithub /></a>
                         </div>
                     </div>
                 </div>

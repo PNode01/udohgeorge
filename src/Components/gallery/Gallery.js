@@ -33,7 +33,7 @@ function Gallery() {
                         myArray.map(item=> 
                             <div className="gallery-grid-item">
                                 <div className="image">
-                                    <img src={item} />
+                                    <img src={item} alt="latest projects"/>
                                 </div>
                             </div>
                         )
