@@ -1,4 +1,4 @@
-// import ProfilePics from "./PERRY-PP-2.png"
+import ProfilePics from "./PERRY-PP-2.png"
 import "./Profile.css"
 import { FaWhatsapp, FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 import Portfolio from '../gallery/Udoh-George-Portfolio.pdf'
@@ -12,7 +12,7 @@ function Profile() {
                     <h2>Graphics Designer</h2>
                     <p>I believe that design more than Aesthetics - It's a Brand's Heartbeat</p>
                     <p>I bring visuals to life, ensuring every design is consistent, engaging, and a perfect reflection of YOUR Brand's Voice. - YOUR Brand is at the Center not my designing skill.</p>
-                    <P>Your Brand Needs a Voice, Let's Help Make it Shout!</P>
+                    <p>Your Brand Needs a Voice, Let's Help Make it Shout!</p>
                     <div class="download-social">
                         <a href={Portfolio} class="btn" download={Portfolio}>Download Cv</a>
                         <div class="social-icons">
@@ -23,11 +23,11 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                {/* <div class="home-img">
+                <div class="home-img">
                     <div class="img-box">
                         <img src={ProfilePics} alt="portrait picture of udoh george" />
                     </div>
-                </div> */}
+                </div>
             </header>
         </>
     )
