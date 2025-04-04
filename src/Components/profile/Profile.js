@@ -1,7 +1,7 @@
 // import ProfilePics from "./PERRY-PP-2.png"
 import "./Profile.css"
 import { FaWhatsapp, FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
-import Portfolio from '../gallery/Resume.pdf'
+import Portfolio from '../gallery/Udoh-George-Portfolio.pdf'
 
 function Profile() {
     return (
