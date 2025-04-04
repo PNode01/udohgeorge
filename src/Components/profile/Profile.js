@@ -22,11 +22,11 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                <div class="home-img">
+                {/* <div class="home-img">
                     <div class="img-box">
                         <img src={ProfilePics} alt="portrait picture of udoh george" />
                     </div>
-                </div>
+                </div> */}
             </header>
         </>
     )

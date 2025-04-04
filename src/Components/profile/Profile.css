@@ -74,17 +74,18 @@
         display: none;
     }
     .home-details h1{
-        font-size: 64px;
+        font-size: 40px;
     }
     .home-details h2{
-        font-size: 32px;
+        font-size: 24px;
     }
     .home-details p{
-        font-size: 14px;
+        font-size: 12px;
     }
     .btn{
         font-size: 14px;
         font-weight: 500;
+        padding: 10px 20px;
     }
     .download-social{
         justify-content: space-between;
@@ -96,6 +97,6 @@
     .home-details .social-icons a{
         margin: 2px;
         padding: 5px;
-        font-size: 16px;
+        font-size: 12px;
     }
 }
