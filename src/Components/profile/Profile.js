@@ -25,7 +25,7 @@ function Profile() {
                 </div>
                 <div class="home-img">
                     <div class="img-box">
-                        <img src={ProfilePics} alt="portrait picture of udoh george" />
+                        <img src={ProfilePics} alt="portrait of udoh george" />
                     </div>
                 </div>
             </header>
