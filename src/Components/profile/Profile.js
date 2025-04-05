@@ -1,7 +1,7 @@
 import ProfilePics from "./PERRY-PP-2.png"
 import "./Profile.css"
 import { FaWhatsapp, FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
-import Portfolio from '../gallery/Udoh-George-Portfolio.pdf'
+import Resume from '../Resume.pdf'
 
 function Profile() {
     return (
@@ -14,7 +14,7 @@ function Profile() {
                     <p>I bring visuals to life, ensuring every design is consistent, engaging, and a perfect reflection of YOUR Brand's Voice. - YOUR Brand is at the Center not my designing skill.</p>
                     <p>Your Brand Needs a Voice, Let's Help Make it Shout!</p>
                     <div class="download-social">
-                        <a href={Portfolio} class="btn" download={Portfolio}>Download Cv</a>
+                        <a href={Resume} class="btn" download={Resume}>Download Cv</a>
                         <div class="social-icons">
                             <a href="https://www.linkedin.com/in/udoh-george" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
                             <a href="https://Wa.me/+2349069689034" target="_blank" rel="noreferrer"><FaWhatsapp /></a>
