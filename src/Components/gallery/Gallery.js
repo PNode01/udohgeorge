@@ -20,10 +20,12 @@ import Chopz from './images/chopz-place-mockup-2.jpg'
 import Chopf from './images/CHOPZ_PLACE-newmenu-mockup-2.jpg'
 import Logo from './images/ANIEHUB-LOGO-MOCKUP.jpg'
 import Logon from './images/crunchy-logo-mockup.jpg'
+import BR from './images/br-1.jpg'
+import BRN from './images/br-2.jpg'
 
 
 function Gallery() {
-    const myArray = [Expo, Book, Bookn, Exto, Ib, Ibn, Virtue, Juiceup, Juiceupn, Sam, Paridigm, Paridigm, Paridigmn, Jaded, Jadedn, Icecream, Icecreamn, Chop, Chopf, Chopz, Logo, Logon]
+    const myArray = [Expo, BR, BRN, Book, Bookn, Exto, Ib, Ibn, Virtue, Juiceup, Juiceupn, Sam, Paridigm, Paridigm, Paridigmn, Jaded, Jadedn, Icecream, Icecreamn, Chop, Chopf, Chopz, Logo, Logon]
     return (
         <div id="gallery" className="gallery">
             <h1>Latest Projects</h1>
