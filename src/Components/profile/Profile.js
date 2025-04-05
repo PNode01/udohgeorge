@@ -1,4 +1,4 @@
-import ProfilePics from "./PERRY-PP-2.png"
+// import ProfilePics from "./PERRY-PP-2.png"
 import "./Profile.css"
 import { FaWhatsapp, FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 import Resume from './Resume.pdf'
@@ -23,11 +23,11 @@ function Profile() {
                         </div>
                     </div>
                 </div>
-                <div class="home-img">
+                {/* <div class="home-img">
                     <div class="img-box">
                         <img src={ProfilePics} alt="portrait of udoh george" />
                     </div>
-                </div>
+                </div> */}
             </header>
         </>
     )
